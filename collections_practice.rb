@@ -28,6 +28,5 @@ end
 
 def merge_data(arr1, arr2)
   for arr2.each do |x|
-    puts x
   end
 end
