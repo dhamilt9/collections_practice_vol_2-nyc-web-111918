@@ -30,7 +30,7 @@ def merge_data(arr1, arr2)
   output=[]
   arr2.each do |key|
     key.each do |key, value|
-      arr1.each do |x|
+      arr1.each do |key2, value2|
         puts x
       end
     end
