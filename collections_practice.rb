@@ -49,3 +49,10 @@ def find_cool(hashes)
   end
   output
 end
+
+def organize_schools(schools)
+  output=[]
+  schools.each do |school|
+    puts school
+  end
+end
