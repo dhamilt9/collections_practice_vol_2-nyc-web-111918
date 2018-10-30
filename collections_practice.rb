@@ -47,4 +47,5 @@ def find_cool(hashes)
       output<<entry
     end
   end
+  output
 end
