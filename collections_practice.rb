@@ -59,5 +59,6 @@ def organize_schools(schools)
   locations.uniq.each do |x|
     output[x]=[]
   end
-  puts output
+  schools.each do |scool, data|
+  end
 end
