@@ -41,4 +41,9 @@ def merge_data(arr1, arr2)
 end
 
 def find_cool(hashes)
+  hashes.each do |entry|
+    entry.each do |key, value|
+      puts key
+    end
+  end
 end
