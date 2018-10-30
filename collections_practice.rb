@@ -27,8 +27,7 @@ def count_elements(hash)
 end
 
 def merge_data(arr1, arr2)
-  arr2.each do |key, value|
-    puts key
-    puts value
+  arr2.each do |person|
+    puts person
   end
 end
