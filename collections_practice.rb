@@ -25,3 +25,6 @@ def count_elements(hash)
   hash.uniq.each{|x| output<<{:count=> hash.count(x), :name=>x[:name]}}
   output
 end
+
+def merge_data(arr1, arr2)
+end
