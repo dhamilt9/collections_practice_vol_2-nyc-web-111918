@@ -21,7 +21,5 @@ def remove_non_strings(array)
 end
 
 def count_elements(hash)
-  hash.each do |x|
-    puts x
-  end
+  hash.uniq{|x|}
 end
