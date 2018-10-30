@@ -29,7 +29,7 @@ end
 def merge_data(arr1, arr2)
   output=[]
   arr2.each do |namekey|
-    key.each do |data, value|
+    namekey.each do |data, value|
       arr1.each do |x|
         if x[:first_name]==namekey
           puts "Hello"
