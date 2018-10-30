@@ -18,3 +18,4 @@ end
 
 def remove_non_strings(array)
   array.delete{|x| x.is_a? String}
+end
