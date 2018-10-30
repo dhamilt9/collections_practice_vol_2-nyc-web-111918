@@ -13,5 +13,5 @@ def contain_a(array)
 end
 
 def first_wa(array)
-  array.sort.detect{|x| x.start_with?("ca")}
+  array.detect{|x| x.start_with?("wa")}
 end
