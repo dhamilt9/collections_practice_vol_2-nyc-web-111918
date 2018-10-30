@@ -29,5 +29,6 @@ end
 def merge_data(arr1, arr2)
   arr2.each do |person|
     puts person
+    puts "NEXT"
   end
 end
