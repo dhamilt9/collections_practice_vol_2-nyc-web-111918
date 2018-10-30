@@ -21,5 +21,6 @@ def remove_non_strings(array)
 end
 
 def count_elements(hash)
-  hash.uniq.each{|x| puts hash.count(x)}
+  output=[]
+  hash.uniq.each{|x| output<<{:count=> hash.count(x)}}
 end
