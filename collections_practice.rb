@@ -31,8 +31,8 @@ def merge_data(arr1, arr2)
   arr2.each do |namekey|
     namekey.each do |data, value|
       arr1.each do |x|
-        puts data
-        puts x[:first_name]
+        if data==x[:first_name]
+          output<<{:first_name=>data}.merge(namekey)
       end
     end
   end
