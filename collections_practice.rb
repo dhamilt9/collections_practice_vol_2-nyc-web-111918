@@ -55,7 +55,6 @@ def organize_schools(schools)
   locations=[]
   schools.each do |school, data|
     locations<<data[:location]
-    output<<locations.uniq
+    puts locations
   end
-  puts output
 end
