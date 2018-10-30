@@ -27,9 +27,10 @@ def count_elements(hash)
 end
 
 def merge_data(arr1, arr2)
+  output=[]
   arr2.each do |key|
     key.each do |key, value|
-      puts key
+      puts value.merge(arr1)
     end
   end
 end
