@@ -22,6 +22,6 @@ end
 
 def count_elements(hash)
   output=[]
-  hash.uniq.each{|x| output<<{:count=> hash.count(x)}}
+  hash.uniq.each{|x| output<<{:count=> hash.count(x), :name=>x.name}}
   output
 end
