@@ -57,6 +57,5 @@ def organize_schools(schools)
     locations<<data[:location]
   end
   output[locations.uniq]=[]
-  output["NYC"]
   puts output
 end
