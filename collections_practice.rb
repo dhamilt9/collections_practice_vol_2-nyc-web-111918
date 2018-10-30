@@ -53,6 +53,6 @@ end
 def organize_schools(schools)
   output=[]
   schools.each do |school, data|
-    puts school
+    puts data
   end
 end
