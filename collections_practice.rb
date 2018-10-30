@@ -51,11 +51,12 @@ def find_cool(hashes)
 end
 
 def organize_schools(schools)
-  output=[]
+  output={}
   locations=[]
   schools.each do |school, data|
     locations<<data[:location]
   end
   output[locations.uniq]=[]
+  output["NYC"]
   puts output
 end
