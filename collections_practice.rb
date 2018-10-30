@@ -5,5 +5,5 @@ def begins_with_r(array)
       return false
     end
   end
-  return false;
+  return true
 end
