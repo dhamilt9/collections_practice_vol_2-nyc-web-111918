@@ -62,4 +62,5 @@ def organize_schools(schools)
   schools.each do |school, data|
     output[data[:location]]<<school
   end
+  output
 end
