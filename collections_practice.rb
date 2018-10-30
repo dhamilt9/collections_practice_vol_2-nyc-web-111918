@@ -13,5 +13,5 @@ def contain_a(array)
 end
 
 def first_wa(array)
-  array.find{|x| x.start_with? "wa"}
+  array.find{|x| x=="wall"}
 end
