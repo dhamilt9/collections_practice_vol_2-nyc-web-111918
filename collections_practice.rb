@@ -13,5 +13,5 @@ def contain_a(array)
 end
 
 def first_wa(array)
-  array.detect{|x| x.start_with?("wa")}
+  array.detect{|x| x[0,2]("wa")}
 end
