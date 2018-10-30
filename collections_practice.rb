@@ -13,5 +13,5 @@ def contain_a(array)
 end
 
 def first_wa(array)
-  array.sort.find{|x| x.start_with?("wa")}
+  puts array.sort
 end
