@@ -22,6 +22,6 @@ end
 
 def count_elements(hash)
   hash.each do |x|
-    put x
+    puts x
   end
 end
