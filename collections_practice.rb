@@ -41,7 +41,10 @@ def merge_data(arr1, arr2)
 end
 
 def find_cool(hashes)
+  output=[]
   hashes.each do |entry|
-    puts entry[:temperature]
+    if entry[:temperature]=="cool"
+      output<<entry
+    end
   end
 end
