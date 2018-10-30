@@ -20,9 +20,8 @@ def remove_non_strings(array)
   array.delete_if{|x| x.is_a?(String)==false}
 end
 
-def count_elements(array)
-  output=[]
-  array.each do |x|
-    output[:x]=x
+def count_elements(hash)
+  hash.each do |x|
+    put x
   end
 end
