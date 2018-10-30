@@ -57,4 +57,5 @@ def organize_schools(schools)
     locations<<data[:location]
     output<<locations.uniq
   end
+  output
 end
