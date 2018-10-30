@@ -13,5 +13,5 @@ def contain_a(array)
 end
 
 def first_wa(array)
-  array.delete_index(array.find_index(array.find{|x| x.start_with?("wa")}))
+  array.find{|x| x.start_with?("wa")}
 end
